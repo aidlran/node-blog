@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Express powered blog",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "export NODE_ENV=production&& node index.js",
+    "dev": "export NODE_ENV=dev&& node index.js"
+  },
+  "repository": "github:aid-lo/blog",
+  "keywords": [
+    "server",
+    "blog"
+  ],
+  "author": "Aidan Loughran (https://github.com/aid-lo)",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/aid-lo/blog#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
