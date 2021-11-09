@@ -12,10 +12,7 @@ export default (router => {
 			const metaData = {
 				articlePath: articlePath + ".html"
 			};
-			const render = () => {
-				console.log(metaData);
-				res.render('article', metaData);
-			}
+			const render = () => res.render('article', metaData);
 			readFile(metaPath, (err, data) => {
 				if (err) render();
 				else {

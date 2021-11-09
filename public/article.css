@@ -1,0 +1,36 @@
+html{
+	background:linear-gradient(#3ad,palegreen);
+	min-height:100vh;
+}
+body{
+	margin:0;
+	padding:20px calc((100vw - 800px) / 2);
+}
+article{
+	padding:40px 24px;
+	border-radius:15px;
+	background-color:#fff;
+	box-shadow:0 1px 8px 1px #1114;
+}
+article .info{
+	display:flex;
+	justify-content:space-between;
+	border-bottom:1px inset #1113;
+	padding:5px 0;
+	margin-bottom:40px;
+	color:#1129;
+	font-size:14pt;
+}
+h1,p{
+	margin-inline:0;
+	margin-block:0 20px;
+}
+h1{
+	font-size:38pt;
+	font-weight:bold;
+}
+p{
+	font-size:20pt;
+	margin-block:0 18px;
+	font-weight:normal;
+}
